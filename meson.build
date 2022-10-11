@@ -1,7 +1,7 @@
 project(
-    'io.elementary.calculator', 'vala', 'c',
+    'io.playnux.calculator', 'vala', 'c',
     meson_version : '>= 0.49',
-    version: '2.0.0'
+    version: '1.0.0'
 )
 
 i18n = import('i18n')

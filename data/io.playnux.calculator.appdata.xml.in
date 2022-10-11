@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Copyright 2015–2021 elementary, Inc. <contact@elementary.io> -->
 <component type="desktop">
-  <id>io.elementary.calculator</id>
+  <id>io.playnux.calculator</id>
   <metadata_license>CC0-1.0</metadata_license>
-  <project_group>elementary</project_group>
+  <project_group>PlayNux</project_group>
   <project_license>GPL-3.0+</project_license>
   <name>Calculator</name>
   <summary>Solve simple equations</summary>
   <description>
     <p>A simple calculator for everyday use. It supports basic and some scientific calculations including trigonometry functions, sin, cos, and tan.</p>
   </description>
-  <translation type="gettext">io.elementary.calculator</translation>
+  <translation type="gettext">io.playnux.calculator</translation>
   <releases>
     <release version="2.0.0" date="2022-05-09" urgency="medium">
       <description>
@@ -25,7 +25,7 @@
       <description>
         <p>Minor updates:</p>
         <ul>
-          <li>Update to elementary 6.1 runtime</li>
+          <li>Update to 6.1 runtime</li>
           <li>Updated translations</li>
         </ul>
       </description>
@@ -116,7 +116,7 @@
     </release>
   </releases>
   <provides>
-    <binary>io.elementary.calculator</binary>
+    <binary>io.playnux.calculator</binary>
   </provides>
   <content_rating type="oars-1.1">
     <content_attribute id="violence-cartoon">none</content_attribute>
@@ -147,19 +147,19 @@
     <content_attribute id="money-purchasing">none</content_attribute>
     <content_attribute id="money-gambling">none</content_attribute>
   </content_rating>
-  <developer_name>elementary, Inc.</developer_name>
-  <url type="homepage">https://elementary.io/</url>
-  <url type="bugtracker">https://github.com/elementary/calculator/issues</url>
-  <url type="donation">https://elementary.io/get-involved#funding</url>
+  <developer_name>PlayNux </developer_name>
+  <url type="homepage">https://playnux.tawhidbinomar.repl.co</url>
+  <url type="bugtracker">https://github.com/playnux/calculator/issues</url>
+  <url type="donation">https://github.com/playnux</url>
   <url type="help">https://elementaryos.stackexchange.com/questions/tagged/calculator</url>
   <url type="translate">https://l10n.elementary.io/projects/calculator</url>
-  <update_contact>contact_at_elementary.io</update_contact>
+  <update_contact>contact_at_playnux.io</update_contact>
   <screenshots>
     <screenshot type="default">
-      <image>https://raw.githubusercontent.com/elementary/calculator/master/data/screenshot@2x.png</image>
+      <image>https://raw.githubusercontent.com/playnux/calculator/master/data/screenshot@2x.png</image>
     </screenshot>
     <screenshot>
-      <image>https://raw.githubusercontent.com/elementary/calculator/master/data/screenshot-extended@2x.png</image>
+      <image>https://raw.githubusercontent.com/playnux/calculator/master/data/screenshot-extended@2x.png</image>
     </screenshot>
   </screenshots>
 </component>
