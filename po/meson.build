@@ -1,4 +1,4 @@
-i18n.gettext('io.elementary.calculator',
+i18n.gettext('io.playnux.calculator',
     args: '--directory=' + meson.source_root(),
     preset: 'glib'
 )

@@ -23,7 +23,7 @@ namespace PantheonCalculator {
 
     public class PantheonCalculatorApp : Gtk.Application {
         construct {
-            application_id = "io.elementary.calculator";
+            application_id = "io.playnux.calculator";
             flags = ApplicationFlags.FLAGS_NONE;
 
             Intl.setlocale (LocaleCategory.ALL, "");
