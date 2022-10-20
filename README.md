@@ -7,7 +7,7 @@
 
 You'll need the following dependencies:
 
-* libgranite-dev >= 7.0
+* libgranite-dev <= 7.0
 * libgtk-4-dev
 * meson >= 0.43.0
 * valac
@@ -18,7 +18,7 @@ Run `meson build` to configure the build environment. Change to the build direct
     cd build
     ninja test
 
-To install, use `ninja install`, then execute with `io.elementary.calculator`
+To install, use `ninja install`, then execute with `io.playnux.calculator`
 
     sudo ninja install
-    io.elementary.calculator
+    io.playnux.calculator

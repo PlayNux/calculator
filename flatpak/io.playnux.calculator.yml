@@ -1,0 +1,29 @@
+---
+
+app-id: io.playnux.calculator
+runtime: org.gnome.Platform
+runtime-version: '43'
+sdk: org.gnome.Sdk
+command: io.playnux.calculator
+
+finish-args:
+  - '--device=dri'
+  - '--share=ipc'
+  - '--socket=fallback-x11'
+  - '--socket=wayland'
+
+modules:      
+  - name: granite
+    buildsystem: meson
+    sources:
+      - type: git
+        url: https://github.com/elementary/granite
+        commit: 2cd5c495dcddf9bc0782053df3ee57a2567a7d84
+
+  - name: calculator
+    buildsystem: meson
+    sources:
+      - type: git
+        url: https://github.com/PlayNux/calculator.git
+        commit: e4d60fb4624bf80a49059e8f9de4d8edc2374307
+    

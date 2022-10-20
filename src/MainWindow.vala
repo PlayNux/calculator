@@ -59,7 +59,7 @@ public class PantheonCalculator.MainWindow : Gtk.ApplicationWindow {
     };
 
     static construct {
-        settings = new Settings ("io.elementary.calculator.saved-state");
+        settings = new Settings ("io.playnux.calculator.saved-state");
     }
 
     construct {
